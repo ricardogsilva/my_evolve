@@ -20,7 +20,7 @@ class Characteristic(object):
         self.rank = value
 
     def __add__(self, otherObject):
-              % (self.rank, otherObject.rank))
+        print('self.rank: %s\tother.rank: %s'% (self.rank, otherObject.rank))
         self.rank += otherObject.rank
 
 
